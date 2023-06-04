@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <div className={styles.divAll}>
-      <Image src="/images/brecho.png" alt='brecho' width={600} height={800} />
+      <Image src="/images/closet-do-bem.png" alt='brecho' width={600} height={800} />
     </div>
   )
 
