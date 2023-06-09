@@ -2,10 +2,10 @@
 "use client"
 import Image from 'next/image'
 import styles from './page.module.css'
-import { useEffect } from 'react'
+import { useLayoutEffect } from 'react'
 
 export default function Home() {
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (location?.protocol !== 'https:') {
       location.replace(`https:${location.href.substring(location.protocol.length)}`);
     }
