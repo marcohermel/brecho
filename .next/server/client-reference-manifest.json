@@ -1022,6 +1022,27 @@
       ],
       "async": false
     },
+    "/Users/marco.hermel/PROJECTS/PERSONAL_PROJECTS/brecho-2/node_modules/@fortawesome/fontawesome-svg-core/styles.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/marco.hermel/PROJECTS/PERSONAL_PROJECTS/brecho-2/src/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/marco.hermel/PROJECTS/PERSONAL_PROJECTS/brecho-2/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/Users/marco.hermel/PROJECTS/PERSONAL_PROJECTS/brecho-2/node_modules/next/dist/client/image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
@@ -1205,27 +1226,6 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "/Users/marco.hermel/PROJECTS/PERSONAL_PROJECTS/brecho-2/node_modules/@fortawesome/fontawesome-svg-core/styles.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/marco.hermel/PROJECTS/PERSONAL_PROJECTS/brecho-2/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/marco.hermel/PROJECTS/PERSONAL_PROJECTS/brecho-2/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
     }
   }
 }
