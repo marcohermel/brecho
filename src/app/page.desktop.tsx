@@ -143,9 +143,9 @@ export const PageDesktop: React.FC = () => {
                 <iframe src={GOOGLE_MAPS_EVENT_1_URL} width="700" height="500" loading="lazy" />
             </div>
         </section>
-        <section id="contact" className='bg-secondary py-10'>
+        <section id="contact" className='bg-secondary pt-10 pb-4'>
             <div className='flex flex-col items-center justify-center px-20'>
-                <h3 className='text-center text-white w-full mb-4 border-b border-white'>CONTATO</h3>
+                <h3 className='text-center text-white w-full  border-b border-white'>CONTATO</h3>
                 <div className="flex items-center justify-around pt-4 pb-4 w-full pl-8  bg-secondary">
                     <div className='py-4 flex items-center'>
                         <Image
@@ -177,6 +177,9 @@ export const PageDesktop: React.FC = () => {
                     height={40}
                     className="fixed bottom-4 right-4"
                 /></Link>
+            </div>
+            <div className="pt-4 justify-center text-center text-gold">
+                Venha conosco se vestir bem e espalhar o bem!
             </div>
         </section>
     </main>)
