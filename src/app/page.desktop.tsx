@@ -15,13 +15,13 @@ export const PageDesktop: React.FC = () => {
     }
 
     return (<main >
-        <nav className='flex w-screen p-4 align-middle justify-end bg-secondary text-primary'>
+        <nav className='flex w-screen p-4 align-middle justify-end bg-secondary text-white'>
             <div className='flex gap-20 mx-10'>
-                <Link className='hover:text-white' onClick={e => onClick(e, 'home')} href='/'>HOME</Link>
-                <Link className='hover:text-white' onClick={e => onClick(e, 'products')} href='/'>SOBRE</Link>
-                <Link className='hover:text-white' onClick={e => onClick(e, 'about')} href='/'>PRODUTOS</Link>
-                <Link className='hover:text-white' onClick={e => onClick(e, 'events')} href='/'>EVENTOS</Link>
-                <Link className='hover:text-white' onClick={e => onClick(e, 'contact')} href='/'>CONTATO</Link>
+                <Link className='hover:text-gold' onClick={e => onClick(e, 'home')} href='/'>HOME</Link>
+                <Link className='hover:text-gold' onClick={e => onClick(e, 'products')} href='/'>SOBRE</Link>
+                <Link className='hover:text-gold' onClick={e => onClick(e, 'about')} href='/'>PRODUTOS</Link>
+                <Link className='hover:text-gold' onClick={e => onClick(e, 'events')} href='/'>EVENTOS</Link>
+                <Link className='hover:text-gold' onClick={e => onClick(e, 'contact')} href='/'>CONTATO</Link>
             </div>
 
             <div className='px-4'>|</div>
