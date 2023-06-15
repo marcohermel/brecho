@@ -14,6 +14,9 @@ module.exports = {
       tertiary: '#FDF1EF',
       blackSecondary: '#413D3C',
     },
+    fontFamily: {
+      asul: ['Asul'],
+    },
     extend: {
       // that is animation class
       animation: {

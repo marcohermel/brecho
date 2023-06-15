@@ -1,4 +1,4 @@
-import { COLOR, GOOGLE_MAPS_EVENT_1_URL } from "@/constants";
+import { ABOUT_TEXT, COLOR, GOOGLE_MAPS_EVENT_1_URL } from "@/constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faCalendar } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
@@ -118,7 +118,7 @@ export const PageMobile: React.FC = () => {
                     width={368}
                     height={223}
                 />
-                <span className="text-white text-center my-4">Apresento a vocês a turma responsável por este projeto! O Closet do bem, busca arrecadar R$ 2.000,00 através de um brechó solidário que será doado a uma ONG. Além do closet do bem, ter nascido de um projeto da disciplina de Gestão de equipes e talentos: construção da confiança e engajamento, do curso de MBA EM LIDERANÇA E GESTÃO ESTRATÉGICA, nos buscamos fazer você se vestir bem!</span>
+                <span className="text-white text-center my-4">{ABOUT_TEXT}</span>
             </div>
         </section>
         <section id='events' className='flex flex-col  text-secondary w-full items-center  bg-blackSecondary'>
@@ -179,7 +179,7 @@ export const PageMobile: React.FC = () => {
                 <div className="pt-8 justify-center text-center text-gold">
                     Venha conosco <br /> se vestir bem e espalhar o bem!
                 </div>
-                <Link className='py-2' href='https://wa.me/5551999044949?text=Send20%a20%quote'> <Image
+                <Link className='py-2' href='https://wa.me/5551999044949?text=Olá%20tudo%20bom?'> <Image
                     src="/whatsapp-green.svg"
                     alt="Whatsapp"
                     width={40}
