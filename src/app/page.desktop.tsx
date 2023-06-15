@@ -18,8 +18,8 @@ export const PageDesktop: React.FC = () => {
         <nav className='flex w-screen p-4 align-middle justify-end bg-secondary text-white'>
             <div className='flex gap-20 mx-10'>
                 <Link className='hover:text-gold' onClick={e => onClick(e, 'home')} href='/'>HOME</Link>
-                <Link className='hover:text-gold' onClick={e => onClick(e, 'products')} href='/'>SOBRE</Link>
-                <Link className='hover:text-gold' onClick={e => onClick(e, 'about')} href='/'>PRODUTOS</Link>
+                <Link className='hover:text-gold' onClick={e => onClick(e, 'about')} href='/'>SOBRE</Link>
+                <Link className='hover:text-gold' onClick={e => onClick(e, 'products')} href='/'>PRODUTOS</Link>
                 <Link className='hover:text-gold' onClick={e => onClick(e, 'events')} href='/'>EVENTOS</Link>
                 <Link className='hover:text-gold' onClick={e => onClick(e, 'contact')} href='/'>CONTATO</Link>
             </div>
@@ -109,7 +109,7 @@ export const PageDesktop: React.FC = () => {
                 height={567}
             />
         </section>
-        <section id="events" className='flex  text-secondary  bg-tertiary py-10'>
+        <section id="events" className='flex justify-center  text-secondary  bg-tertiary py-10'>
             <div className='flex flex-col px-20'>
                 <h3 className='text-center text-secondary w-full mb-4 border-b border-secondary'>EVENTOS</h3>
                 <div className="flex flex-col pl-4 pb-4">
