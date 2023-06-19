@@ -45,7 +45,7 @@ export const Carousel: React.FC = () => {
 
     return (<div style={{ height: '470px' }} id="default-carousel" className="relative w-full pt-4 bg-secondary" data-carousel="slide">
         <div className=" overflow-hidden rounded-lg flex flex-col gap-4 justify-center items-center">
-            <span>Alguns dos itens arrecadados</span>
+            <span>Alguns dos itens arrecadados<br /> Gostou de algum? entre em contato.</span>
             {products.map((item: number) => {
                 return (
                     <div className={`${currentItem === item ? "" : "hidden"} duration-700 ease-in-out pb-`} data-carousel-item>

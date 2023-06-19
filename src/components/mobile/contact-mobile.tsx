@@ -30,7 +30,7 @@ export const ContactMobile: React.FC = () => {
                 <div className="pt-8 justify-center text-center text-gold">
                     Venha conosco <br /> se vestir bem e espalhar o bem!
                 </div>
-                <Link className='py-2' href='https://wa.me/5551999044949?text=Olá%20tudo%20bom?'> <Image
+                <Link className='py-2' href='https://wa.me/5551999044949?text=Olá%20tudo%20bom?%20Gostei%20de%20uma%20peça%20e%20gostaria%20de%20ajudar.'> <Image
                     src="/whatsapp-green.svg"
                     alt="Whatsapp"
                     width={40}
