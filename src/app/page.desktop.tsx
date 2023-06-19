@@ -1,11 +1,11 @@
 
-import { AboutDesktop } from '@/components/about-desktop'
-import { CarouselDesktop } from '@/components/carousel-desktop'
-import { ContactDesktop } from '@/components/contact-desktop'
-import { EventsDesktop } from '@/components/events-desktop'
-import { HeaderDesktop } from '@/components/header-desktop'
-import { HomeDesktop } from '@/components/home-desktop'
-import { ProductsDesktop } from '@/components/products-desktop'
+import { AboutDesktop } from '@/components/desktop/about-desktop'
+import { CarouselDesktop } from '@/components/desktop/carousel-desktop'
+import { ContactDesktop } from '@/components/desktop/contact-desktop'
+import { EventsDesktop } from '@/components/desktop/events-desktop'
+import { HeaderDesktop } from '@/components/desktop/header-desktop'
+import { HomeDesktop } from '@/components/desktop/home-desktop'
+import { ProductsDesktop } from '@/components/desktop/products-desktop'
 
 export const PageDesktop: React.FC = () => {
 
