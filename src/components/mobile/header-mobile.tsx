@@ -31,17 +31,17 @@ export const HeaderMobile: React.FC = () => {
 
 
     return (
-        <>
+        <div className='z-40'>
             <div className='flex justify-end bg-tertiary'>
                 <FontAwesomeIcon
                     onClick={() => { setShowMenu(!showMenu) }}
                     size='2x'
-                    className={`m-4 p-2 ${iconSecondary ? 'bg-secondary' : 'bg-primary'} z-31 rounded-sm fixed cursor-pointer`}
+                    className={`m-4 p-2 ${iconSecondary ? 'bg-secondary' : 'bg-primary'} z-30 rounded-sm fixed cursor-pointer`}
                     color={iconSecondary ? COLOR.PRIMARY : COLOR.SECONDARY}
                     icon={faBars}
                 />
             </div>
-            <nav ref={ref} className={`flex z-31 fixed w-full mt-20 px-4 ${menuSecondary ? 'text-primary' : 'text-secondary'}  transition-all duration-200 ${showMenu ? "opacity-100" : "opacity-0"} `}>
+            <nav ref={ref} className={`flex z-31 fixed w-full mt-20 px-4 ${menuSecondary ? 'text-primary' : 'text-secondary'} z-30  transition-all duration-200 ${showMenu ? "opacity-100" : "opacity-0"} `}>
                 <ul className={`flex rounded-sm align-middle justify-center flex-col w-full py-2 ${menuSecondary ? 'bg-secondary' : 'bg-primary'}`}>
                     <li className='flex justify-center align-middle hover:bg-secondary hover:text-white'>
                         <Link className='py-2' onClick={e => onClick(e, 'home')} href='/'>HOME</Link>
@@ -60,6 +60,6 @@ export const HeaderMobile: React.FC = () => {
                     </li>
                 </ul>
             </nav>
-        </>
+        </div>
     );
 }
