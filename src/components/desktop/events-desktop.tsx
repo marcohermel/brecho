@@ -33,6 +33,7 @@ export const EventsDesktop: React.FC = () => {
                     <span>R. Florianópolis, 2855, Mathias Velho</span>
                 </div>
             </div>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/iVBSFJhqtFw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
         </div>
         <div className='flex px-20'>
             <iframe src={GOOGLE_MAPS_EVENT_1_URL} width="700" height="500" loading="lazy" />

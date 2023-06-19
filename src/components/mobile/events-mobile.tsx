@@ -34,7 +34,12 @@ export const EventsMobile: React.FC = () => {
                         <span>R. Florianópolis, 2855, Mathias Velho</span>
                     </div>
                 </div>
-                <iframe src={GOOGLE_MAPS_EVENT_1_URL} width="362" height="262" loading="lazy" />
+                <div className='py-4'>
+                    <iframe src={GOOGLE_MAPS_EVENT_1_URL} width="362" height="262" loading="lazy" />
+                </div>
+                <div>
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/iVBSFJhqtFw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                </div>
             </div>
         </section>
     );
