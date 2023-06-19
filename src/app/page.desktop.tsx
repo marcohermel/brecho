@@ -1,6 +1,5 @@
 
 import { AboutDesktop } from '@/components/desktop/about-desktop'
-import { CarouselDesktop } from '@/components/desktop/carousel-desktop'
 import { ContactDesktop } from '@/components/desktop/contact-desktop'
 import { EventsDesktop } from '@/components/desktop/events-desktop'
 import { HeaderDesktop } from '@/components/desktop/header-desktop'

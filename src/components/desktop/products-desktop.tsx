@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { CarouselDesktop } from './carousel-desktop'
+import { Carousel } from '../carousel'
 
 export const ProductsDesktop: React.FC = () => {
 
@@ -45,7 +45,7 @@ export const ProductsDesktop: React.FC = () => {
                 </div>
             </div>
             <div>
-                <CarouselDesktop />
+                <Carousel />
             </div>
         </section>
 

@@ -1,5 +1,9 @@
 export const MOBILE_LIMIT_WIDTH = 1024;
 
+export const INIT_INDEX = 1;
+export const TOTAL_IMAGES = 16;
+export const IMAGE_CHANGE_TIME = 5000;
+
 export const COLOR = {
     WHITE: '#FFFFFF',
     PRIMARY: '#F3C8FE',
